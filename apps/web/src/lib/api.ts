@@ -2,7 +2,7 @@
  * API client for UMS backend.
  */
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "https://ums-replica.onrender.com/api/v1";
+const API_BASE = "https://ums-api-btvo.onrender.com/api/v1";
 
 interface RequestOptions extends RequestInit {
     token?: string;
